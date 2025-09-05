@@ -77,7 +77,7 @@ Customers continue arriving and are placed in order until all desks are filled.
 
 👨‍💻 Author
 Rooney Wandeto Maina
-💼 AI & Cloud Security Enthusiast | 🚀 Building smart automation solutions
+💼 Software Engineer|AI & Cloud Security Enthusiast | 🚀 Building smart automation solutions
 
 
 
