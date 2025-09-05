@@ -43,19 +43,17 @@ An AI-powered smart queue management system that guides customers to service des
 python -m venv .venv
 .venv\Scripts\activate     # On Windows
 source .venv/bin/activate  # On Linux/Mac
+
 2. Install dependencies
-bash
-Copy code
+
 pip install -r requirements.txt
+
 ▶️ Usage
 Run the system:
-
-bash
-Copy code
 python main.py
+
 Expected Output
-css
-Copy code
+
 S001 is staff → skipped.
 S002 is staff → skipped.
 C101, please proceed to Desk 1 (Wing A).
@@ -81,6 +79,5 @@ Customers continue arriving and are placed in order until all desks are filled.
 Rooney Wandeto Maina
 💼 AI & Cloud Security Enthusiast | 🚀 Building smart automation solutions
 
-pgsql
-Copy code
+
 
