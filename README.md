@@ -29,5 +29,29 @@ WaitLess/
 │── README.md # Project documentation
 |__pycache
 
+WaitLess
+========
+
+A smart customer queue and seating management system with real-time voice announcements.  
+Built with Python 🐍 to help reduce waiting times and improve efficiency in service environments.
+
+---
+
 🛠 Installation
+---------------
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/WaitLess.git
+   cd WaitLess
+
+   Create and activate a virtual environment
+
+python -m venv .venv
+.venv\Scripts\activate     # On Windows
+source .venv/bin/activate  # On Linux/Mac
+
+
+
+
 
