@@ -9,21 +9,22 @@
 #     engine.runAndWait()
 
 # announcer.py
-# announcer.py
-import pyttsx3
-import threading
+# announcer.p
 
-def _speak(message):
-    engine = pyttsx3.init()
-    engine.say(message)
-    engine.runAndWait()
-    engine.stop()
+# announcer.py
+import subprocess
+import platform
 
 def announce_customer(customer, desk):
     message = f"{customer}, please proceed to {desk}."
     print(message)
-    # Run each announcement in its own thread
-    threading.Thread(target=_speak, args=(message,)).start()
+
+    # Windows voice (SAPI)
+    if platform.system() == "Windows":
+        subprocess.call(['PowerShell', '-Command', f'Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak("{message}")'])
+    else:
+        # Fallback for Mac/Linux (requires 'say' or 'espeak')
+        subprocess.call(['say', message])
 
 
 
