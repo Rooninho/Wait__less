@@ -1,17 +1,5 @@
-# import pyttsx3
-
-# engine = pyttsx3.init()
-
-# def announce_customer(customer, desk):
-#     message = f"{customer}, please proceed to {desk}."
-#     print(message)
-#     engine.say(message)
-#     engine.runAndWait()
-
-# announcer.py
-# announcer.p
-
-# announcer.py
+ git status
+ 
 import subprocess
 import platform
 
