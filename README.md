@@ -46,10 +46,13 @@ Built with Python 🐍 to help reduce waiting times and improve efficiency in se
    cd WaitLess
 
    Create and activate a virtual environment
+-----------------------------------------
 
 python -m venv .venv
 .venv\Scripts\activate     # On Windows
 source .venv/bin/activate  # On Linux/Mac
+
+
 
   Create and activate a virtual environment
 
