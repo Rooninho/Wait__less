@@ -30,48 +30,4 @@ WaitLess/
 |__pycache
 
 🛠 Installation
-1.Clone the repo
-  git clone https://github.com/your-username/WaitLess.git
-cd WaitLess
 
-2.Create and activate a virtual environment:
-  python -m venv .venv
-.venv\Scripts\activate   # On Windows
-source .venv/bin/activate  # On Linux/Mac
-
-3.Install dependencies:
-  pip install -r requirements.txt
-
-        ▶️ Usage
-Run the system:
-            python main.py
-
-Expected Output:
-                S001 is staff → skipped.
-S002 is staff → skipped.
-C101, please proceed to Desk 1 (Wing A).
-C102, please proceed to Desk 2 (Wing A).
-C103, please proceed to Desk 3 (Wing A).
-C104, please proceed to Desk 4 (Wing A).
-
-🎤 At the same time, each customer will also be announced via voice.
-
-📖 Example Demo Flow
-1.Customer C101 arrives → assigned to Desk 1 (Wing A) → announced by voice.
-
-2.Staff S001 arrives → skipped automatically.
-
-3.Customers continue arriving and are placed in order until all desks are filled.
-
-💡 Future Enhancements
-✅ Real-time arrivals (new customers every 30s).
-
-✅ Database/logging of served customers.
-
-✅ Integration with camera systems for automatic detection.
-
-✅ Web dashboard for queue visualization.
-
-👨‍💻 Author
-Rooney Wandeto Maina
-💼 AI & Cloud Security Enthusiast | 🚀 Building smart automation solutions.
