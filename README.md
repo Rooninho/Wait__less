@@ -32,73 +32,55 @@ WaitLess/
 WaitLess
 ========
 
-A smart customer queue and seating management system with real-time voice announcements.  
-Built with Python 🐍 to help reduce waiting times and improve efficiency in service environments.
-
----
+An AI-powered smart queue management system that guides customers to service desks in an orderly manner while skipping staff automatically. Customers are assigned desks and announced both on screen and via voice.
 
 🛠 Installation
 ---------------
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/WaitLess.git
-   cd WaitLess
+### 1. Create and activate a virtual environment
 
-   Create and activate a virtual environment
------------------------------------------
-
+```bash
 python -m venv .venv
 .venv\Scripts\activate     # On Windows
 source .venv/bin/activate  # On Linux/Mac
-
-
-
-  Create and activate a virtual environment
-
-python -m venv .venv
-.venv\Scripts\activate     # On Windows
-source .venv/bin/activate  # On Linux/Mac
-
-  Install dependencies
-
-  pip install -r requirements.txt
-
+2. Install dependencies
+bash
+Copy code
+pip install -r requirements.txt
 ▶️ Usage
+Run the system:
 
+bash
+Copy code
 python main.py
-
-Expected Output:
-
+Expected Output
+css
+Copy code
 S001 is staff → skipped.
 S002 is staff → skipped.
 C101, please proceed to Desk 1 (Wing A).
 C102, please proceed to Desk 2 (Wing A).
 C103, please proceed to Desk 3 (Wing A).
 C104, please proceed to Desk 4 (Wing A).
-
-
+🎤 At the same time, each customer will also be announced via voice.
 
 📖 Example Demo Flow
-
 Customer C101 arrives → assigned to Desk 1 (Wing A) → announced by voice.
 
 Staff S001 arrives → skipped automatically.
 
 Customers continue arriving and are placed in order until all desks are filled.
 
- 💡 Future Enhancements
-
+💡 Future Enhancements
 ✅ Real-time arrivals (new customers every 30s).
-
 ✅ Database/logging of served customers.
-
 ✅ Integration with camera systems for automatic detection.
-
 ✅ Web dashboard for queue visualization.
 
-
- 👨‍💻 Author
-
+👨‍💻 Author
 Rooney Wandeto Maina
-💼 Software Enginner| AI & Cloud Security Enthusiast | 🚀 Building smart automation solutions
+💼 AI & Cloud Security Enthusiast | 🚀 Building smart automation solutions
+
+pgsql
+Copy code
+
