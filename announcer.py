@@ -1,4 +1,4 @@
- git status
+
  
 import subprocess
 import platform
@@ -13,6 +13,7 @@ def announce_customer(customer, desk):
     else:
         # Fallback for Mac/Linux (requires 'say' or 'espeak')
         subprocess.call(['say', message])
+
 
 
 
