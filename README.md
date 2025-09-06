@@ -36,6 +36,10 @@ An AI-powered smart queue management system that guides customers to service des
 
 🛠 Installation
 ---------------
+**Clone the repo**
+   ```bash
+   git clone https://github.com/Rooninho/WaitLess.git
+   cd WaitLess
 
 ### 1. Create and activate a virtual environment
 
